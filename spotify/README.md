@@ -80,5 +80,17 @@
 	
 	1. The play-service will stream/download audio based on the provided url
 
+	---
+	#### How things look so far
+	
+	![](images/Infra.png)
 	
 	
+	### What can be improved
+	- Right now, the workflow manager is a single point  of failure
+	- The DB is coupled with most of the services
+	   - we can split the DB in two:
+	      - Song Metadata DB
+	      - User Metadata DB
+	      - This would sacrafice a bit of performance and we will have to do sync between the two databases
+	- We can cache the location of the top 100 most listened to songs  
