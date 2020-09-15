@@ -2,8 +2,8 @@
 
 ---
 
-#### System design of audio streaming system - _**Spotify**_
-
+#### This is sample system design of Spotify.
+This system design is suitable for most of the audio streaming applications
 ----
 ### Functionalities:
 
